@@ -1,6 +1,6 @@
 # COVID-19 Chest X-ray Segmentation and Classification
 
-** Paper link: ** https://ieeexplore.ieee.org/document/10441034
+* **Paper link:** https://ieeexplore.ieee.org/document/10441034
 
 ## Repository layout
 
