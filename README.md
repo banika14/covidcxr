@@ -1,3 +1,7 @@
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Colab](https://img.shields.io/badge/Open%20in-Colab-yellow)
+![Paper](https://img.shields.io/badge/paper-ICCIT%202023-blue)
+
 # COVID-19 Chest X-ray Segmentation and Classification
 
 * **Paper link:** https://ieeexplore.ieee.org/document/10441034
