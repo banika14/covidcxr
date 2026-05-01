@@ -1,0 +1,25 @@
+project:
+  image_size: [256, 256]
+  batch_size: 16
+  learning_rate: 0.0005
+  epochs: 30
+  patience: 10
+  threshold: 0.3
+
+segmentation:
+  input_dir: data/raw/segmentation/CXR_png
+  mask_dir: data/raw/segmentation/masks
+  output_dir: data/processed/segmented_images
+  weights_path: data/models/unet_lungs.weights.h5
+
+classification:
+  binary_dir: data/raw/classification/binary
+  multiclass_dir: data/raw/classification/multiclass
+  segmented_dir: data/processed/segmented_images
+  output_dir: data/models/classification
+  architectures:
+    - vgg19
+    - densenet121
+    - resnet50
+    - inceptionv3
+    - xception
